@@ -1,8 +1,7 @@
 import React from 'react'
-import Home from './Components/Home'
 
 export default function page() {
   return (
-    <Home/>
+    <div>motorbike-garment</div>
   )
 }
