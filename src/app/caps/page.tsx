@@ -10,7 +10,7 @@ export default function page() {
 
       <div className=' flex justify-center gap-20 text-center'>
       <div><Image src={'/caps/cap01.jpg'} alt='' width={200} height={100}></Image><p>Caps 01</p></div>
-      <div><Image src={'/caps/cap02.jpeg'} alt='' width={200} height={100}></Image><p>Caps 02</p></div>
+      <div><Image src={'/caps/cap-02.jpg'} alt='' width={200} height={100}></Image><p>Caps 02</p></div>
       <div><Image src={'/caps/cap03.jpg'} alt='' width={200} height={100}></Image><p>Caps 03</p></div>
       <div><Image src={'/caps/cap04.jpg'} alt='' width={200} height={100}></Image><p>Caps 04</p></div>
     </div>

@@ -12,7 +12,7 @@ export default function page() {
       <div><Image src={'/wallet/w01.webp'} alt='' width={200} height={100}></Image><p>Wallet 01</p></div>
       <div><Image src={'/wallet/w02.webp'} alt='' width={200} height={100}></Image><p>Wallet 02</p></div>
       <div><Image src={'/wallet/w03.webp'} alt='' width={200} height={100}></Image><p>Wallet 03</p></div>
-      <div><Image src={'/wallet/w04.jpg'} alt='' width={200} height={100}></Image><p>Wallet 04</p></div>
+      <div><Image src={'/wallet/w-4.jpg'} alt='' width={200} height={100}></Image><p>Wallet 04</p></div>
     </div>
 
     <div className=' flex justify-center gap-20 pt-[60px] text-center'>
