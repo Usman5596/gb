@@ -6,7 +6,7 @@ import Products from '../products/page'
 export default function Home() {
   return (
     <>
-        <div className=" bg-[url('/bg.jpg')] bg-cover py-[460px]"></div>
+        <div className=" bg-[url('/banner-01.jpg')] bg-cover py-[460px]"></div>
 
         <div className='py-[20px]'>
           <h1 className=' font-extrabold text-center text-2xl text-white justify-around w-[70%] m-auto shadow-3xl bg-black rounded-3xl p-[40px] pb-[80px]'>MANUFACTURERS & EXPORTERS OF PREMIUM QUALITY SPORTSWEAR & LEATHER SAFETY GLOVES & WEARS</h1>
