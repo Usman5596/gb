@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className=' flex align-middle gap-[150px] p-[40px]'>
+    <div className=' flex align-middle gap-[150px] p-[40px] bg-[url("/bgi.jpg")]'>
         <div>
             <h1 className=' text-3xl font-bold border-l-yellow-600 border-l-[5px] pl-[8px]'>CONTACT INFORMATION</h1>
             <h1 className=' pt-[30px] font-bold'>ADDRESS:</h1>
