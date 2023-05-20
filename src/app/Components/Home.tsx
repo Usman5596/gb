@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import Products from '../products/page'
-import { ClassNames } from '@emotion/react'
+import About from '../about/page'
+
 
 
 export default function Home() {
@@ -27,38 +28,43 @@ export default function Home() {
           <h1>+92 321 7146798</h1>
           <h1>The Green Brand Company</h1>
           <h1>Small Industial Estate, Sialkot - 51310 Pakistan</h1>
-          <h1>www.tgb.com</h1>
         </div>
         
         <Products/>
+
+        <About/>
+
+        <div className=' align-middle pt-[40px] pl-[50px] pb-4 underline text-fuchsia-950'>
+          <h1 className=' font-extrabold text-3xl border-l-yellow-600 border-l-[6px] pl-[10px] text-black'>Customer Span Over</h1>
+        </div>
        
-        <div className=' flex gap-10 px-[50px] py-[10px] justify-center'>
+        <div className=' flex gap-10 px-[50px] pb-[10px] justify-center'>
           <div>
           <h1 className=' font-bold text-3xl text-center pb-1'>Denmark</h1>
-          <Image src={'/dki.jpg'} alt='denmark' width={180} height={180} />
+          <Image src={'/dki.jpg'} alt='denmark' width={180} height={180} className=' rounded-2xl' />
           </div>
 
           <div>
             <h1 className=' font-bold text-3xl text-center pb-1'>France</h1>
-          <Image src={'/france.png'} alt='france' width={180} height={180} />
+          <Image src={'/france.png'} alt='france' width={180} height={180} className=' rounded-2xl' />
           </div>
             
             <div>
               <h1 className=' font-bold text-3xl text-center pb-1'>Spain</h1>
-              <Image src={'/spain.png'} alt='spain' width={180} height={180} />
+              <Image src={'/spain.png'} alt='spain' width={180} height={180} className=' rounded-2xl' />
             </div>
             
             <div>
             <h1 className=' font-bold text-3xl text-center pb-1'>Neatherland</h1>
-            <Image src={'/neatherland.png'} alt='nea' width={180} height={180} />
+            <Image src={'/neatherland.png'} alt='nea' width={180} height={180} className=' rounded-2xl' />
             </div>
 
             <div><h1 className=' font-bold text-3xl text-center pb-1'>UK</h1>
-            <Image src={'/uni.webp'} alt='usa' width={180} height={180} />
+            <Image src={'/uni.webp'} alt='usa' width={180} height={180} className=' rounded-2xl' />
             </div>
 
             <div><h1 className=' font-bold text-3xl text-center pb-1'>Canada</h1>
-            <Image src={'/canad.avif'} alt='usa' width={180} height={180} />
+            <Image src={'/canad.avif'} alt='usa' width={180} height={180} className=' rounded-2xl' />
             </div>
 
         </div>

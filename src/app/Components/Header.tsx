@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div className=' flex justify-between items-center px-[70px] py-[15px] w-full absolute'>
+    <div className=' flex justify-between items-center px-[70px] py-[15px] w-full bg-slate-700'>
         <div>
             <Link href='/'><Image src={'/logo.jpg'} alt='logo' height={150} width={150} /></Link>
         </div>
@@ -14,10 +14,10 @@ export default function Header() {
                     <Link href='/'>HOME</Link>
                 </li>
                 <li className=' hover:bg-green-800 px-3 py-1 '>
-                    <Link href='./about' target='_blank'>ABOUT</Link>
+                    <Link href='#about'>ABOUT</Link>
                 </li>
                 <li className=' hover:bg-green-800 px-3 py-1 '>
-                    <Link href='./products' target='_blank'>PRODUCTS</Link>
+                    <Link href='#product'>PRODUCTS</Link>
                 </li>
                 <li className=' hover:bg-green-800 px-3 py-1 '>
                     <Link href='/'>COMMITMENT</Link>
@@ -25,7 +25,7 @@ export default function Header() {
             </ul>
         </div>
         <div>
-            <button className='bg-white font-bold rounded-2xl px-[7px] py-[7px] hover:bg-green-800'>CONTACT US</button>
+        <Link href="#contect"><button className='bg-white font-bold rounded-2xl px-[7px] py-[7px] hover:bg-green-800'>CONTACT US</button></Link>
         </div>
     </div>
   )

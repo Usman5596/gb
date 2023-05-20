@@ -4,38 +4,38 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className=' flex align-middle gap-[150px] p-[40px] bg-[url("/bgi.jpg")]'>
+    <div className=' flex align-middle gap-[150px] p-[40px] bg-gray-700 'id='contect'>
         <div>
-            <h1 className=' text-3xl font-bold border-l-yellow-600 border-l-[5px] pl-[8px]'>CONTACT INFORMATION</h1>
-            <h1 className=' pt-[30px] font-bold'>ADDRESS:</h1>
-            <p className=' text-sm flex'>KASHMIR ROAD, PAKKA GHRAH, SIALKOT - 51310 PAKISTAN.</p>
-            <h1 className=' font-bold pt-[15px]'>PHONE:</h1>
-            <p className=' text-sm'>0092 - 321 - 7146798</p>
-            <h1 className=' font-bold pt-[15px]'>EMAIL:</h1>
-            <p className=' text-sm flex gap-1'>source.tgb@gmail.com</p>
+            <h1 className=' text-3xl font-bold border-l-yellow-600 border-l-[5px] pl-[8px] text-slate-200'>CONTACT INFORMATION</h1>
+            <h1 className=' pt-[30px] font-bold text-slate-200'>ADDRESS:</h1>
+            <p className=' text-sm flex font-semibold text-slate-200'>SMALL INDUSTRIAL ESTATE, SIALKOT - 51310 PAKISTAN.</p>
+            <h1 className=' font-bold pt-[15px] text-slate-200'>PHONE:</h1>
+            <p className=' text-sm font-semibold text-slate-200'>0092 - 321 - 7146798</p>
+            <h1 className=' font-bold pt-[15px] text-slate-200'>EMAIL:</h1>
+            <p className=' text-sm font-semibold flex gap-1 text-slate-200'>source.tgb@gmail.com</p>
         </div>
         <div>
-        <h1 className='text-3xl font-bold border-l-yellow-600 border-l-[5px] pl-[8px]'>USEFUL LINKS</h1>
+        <h1 className='text-3xl font-bold border-l-yellow-600 border-l-[5px] pl-[8px] text-slate-200'>USEFUL LINKS</h1>
         <ul className="text-sm font-bold py-[30px]">
-                <li className='py-[4px] hover:text-rose-500'>
+                <li className='py-[4px] hover:text-rose-600 text-slate-200'>
                     <Link href='/'>HOME</Link>
                 </li>
-                <li className=' py-[4px] hover:text-rose-500'>
+                <li className=' py-[4px] hover:text-rose-600 text-slate-200'>
                     <Link href='/'>ABOUT</Link>
                 </li>
-                <li className=' py-[4px] hover:text-rose-500'>
+                <li className=' py-[4px] hover:text-rose-600 text-slate-200'>
                     <Link href='./products'>PRODUCTS</Link>
                 </li>
-                <li className=' py-[4px] hover:text-rose-500'>
+                <li className=' py-[4px] hover:text-rose-600 text-slate-200'>
                     <Link href='/'>COMMITMENT</Link>
                 </li>
-                <li className=' py-[4px] hover:text-rose-500'>
+                <li className=' py-[4px] hover:text-rose-600 text-slate-200'>
                     <Link href='/'>CONTACT US</Link>
                 </li>
             </ul>
         </div>
         <div>
-            <h1 className=' text-3xl font-bold border-l-yellow-600 border-l-[5px] pl-[8px]'>FOLLOW US</h1>
+            <h1 className=' text-3xl font-bold border-l-yellow-600 border-l-[5px] pl-[8px] text-slate-200'>FOLLOW US</h1>
             <ul className= " font-extrabold py-[30px] flex gap-1 ">
                 <li>
                     <Link href='/'><Image src={'/facebook.png'} alt='fb' width={35} height={35}/></Link>
