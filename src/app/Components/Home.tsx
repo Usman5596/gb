@@ -8,7 +8,7 @@ import About from '../about/page'
 export default function Home() {
   return (
     <>
-    <div className=' bg-[url("/bgi.jpg")]'>
+    <div className=' bg-[url("/bgi.jpg")] pb-4'>
         <div className=' flex w-full'>
           <Image src={'/banner-001.jpg'} alt='' height={750} width={680}/>
           <Image src={'/banner-002.jpg'} alt='' height={750} width={680}/>
@@ -40,33 +40,32 @@ export default function Home() {
        
         <div className=' flex gap-10 px-[50px] pb-[10px] justify-center'>
           <div>
-          <h1 className=' font-bold text-3xl text-center pb-1'>Denmark</h1>
-          <Image src={'/dki.jpg'} alt='denmark' width={180} height={180} className=' rounded-2xl' />
+          <h1 className=' font-bold text-2xl text-center  bg-black rounded-xl text-white'>Denmark</h1>
+          <Image src={'/dki.jpg'} alt='denmark' width={180} height={180} className=' rounded-2xl py-2' />
           </div>
 
           <div>
-            <h1 className=' font-bold text-3xl text-center pb-1'>France</h1>
-          <Image src={'/france.png'} alt='france' width={180} height={180} className=' rounded-2xl' />
+            <h1 className=' font-bold text-2xl text-center bg-black rounded-xl text-white'>France</h1>
+          <Image src={'/france.png'} alt='france' width={180} height={180} className=' rounded-2xl py-2' />
           </div>
             
             <div>
-              <h1 className=' font-bold text-3xl text-center pb-1'>Spain</h1>
-              <Image src={'/spain.png'} alt='spain' width={180} height={180} className=' rounded-2xl' />
+              <h1 className=' font-bold text-2xl text-center bg-black rounded-xl text-white'>Spain</h1>
+              <Image src={'/spain.png'} alt='spain' width={180} height={180} className=' rounded-2xl py-2' />
             </div>
             
             <div>
-            <h1 className=' font-bold text-3xl text-center pb-1'>Neatherland</h1>
-            <Image src={'/neatherland.png'} alt='nea' width={180} height={180} className=' rounded-2xl' />
+            <h1 className=' font-bold text-2xl text-center bg-black rounded-xl text-white'>Neatherland</h1>
+            <Image src={'/neatherland.png'} alt='nea' width={180} height={180} className=' rounded-2xl py-2' />
             </div>
 
-            <div><h1 className=' font-bold text-3xl text-center pb-1'>UK</h1>
-            <Image src={'/uni.webp'} alt='usa' width={180} height={180} className=' rounded-2xl' />
+            <div><h1 className=' font-bold text-2xl text-center bg-black rounded-xl text-white'>UK</h1>
+            <Image src={'/uni.webp'} alt='usa' width={180} height={180} className=' rounded-2xl py-2' />
             </div>
 
-            <div><h1 className=' font-bold text-3xl text-center pb-1'>Canada</h1>
-            <Image src={'/canad.avif'} alt='usa' width={180} height={180} className=' rounded-2xl' />
+            <div><h1 className=' font-bold text-2xl text-center bg-black rounded-xl text-white'>Canada</h1>
+            <Image src={'/canad.avif'} alt='usa' width={180} height={180} className=' rounded-2xl py-2' />
             </div>
-
         </div>
         </div>
     </>
