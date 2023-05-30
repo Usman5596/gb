@@ -16,7 +16,7 @@ export default function Home() {
 
         <div className=' flex w-full'>
           <Image src={'/banner-003.jpg'} alt='' height={750} width={680}/>
-          <Image src={'/banner-0005.jpg'} alt='' height={750} width={680}/>
+          <Image src={'/ban-005.jpg'} alt='' height={750} width={680}/>
         </div>
 
         <div className='py-[20px]'>
