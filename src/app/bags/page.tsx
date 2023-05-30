@@ -9,9 +9,9 @@ export default function page() {
       </div>
 
       <div className=' flex justify-center gap-20'>
-      <Image src={'/bag01.jpg'} alt='' width={250} height={50}></Image>
-      <Image src={'/bag02.jpg'} alt='' width={250} height={50}></Image>
-      <Image src={'/bag03.jpg'} alt='' width={250} height={50}></Image>
+      <Image src={'/bags/bag01.jpg'} alt='' width={250} height={50}></Image>
+      <Image src={'/bags/bag02.jpg'} alt='' width={250} height={50}></Image>
+      <Image src={'/bags/bag03.jpg'} alt='' width={250} height={50}></Image>
     </div>
 
     </>
