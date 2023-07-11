@@ -24,9 +24,9 @@ export default function Home() {
         </div>
 
         <div className=' bg-black text-white text-center text-xl font-bold w-[45%] -mt-[80px] m-auto rounded-3xl py-5 px-5 shadow-2xl'>
-          <h1>source.tgb@gmail.com</h1>
+          <h1>aysegul@aysgul.com</h1>
           <h1>+92 321 7146798</h1>
-          <h1>The Green Brand Company</h1>
+          <h1>AYSEGUL INTERNATIONAL </h1>
           <h1>Small Industial Estate, Sialkot - 51310 Pakistan</h1>
         </div>
         

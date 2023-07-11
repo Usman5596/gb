@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className=' flex justify-between items-center px-[70px] py-[15px] w-full bg-slate-700'>
         <div>
-            <Link href='/'><Image src={'/logo.jpg'} alt='logo' height={150} width={150} /></Link>
+            <Link href='/'><Image src={'/agill.png'} alt='logo' height={100} width={100} /></Link>
         </div>
         <div>
             <ul className="flex space-x-[40px] text-lg font-bold text-white font-sans">

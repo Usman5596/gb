@@ -12,7 +12,9 @@ export default function Footer() {
             <h1 className=' font-bold pt-[15px] text-slate-200'>PHONE:</h1>
             <p className=' text-sm font-semibold text-slate-200'>0092 - 321 - 7146798</p>
             <h1 className=' font-bold pt-[15px] text-slate-200'>EMAIL:</h1>
-            <p className=' text-sm font-semibold flex gap-1 text-slate-200'>source.tgb@gmail.com</p>
+            <p className=' text-sm font-semibold flex gap-1 text-slate-200'>aysegul@aysgul.com</p>
+            <p className=' text-sm font-semibold flex gap-1 text-slate-200'>order@aysgul.com</p>
+            <p className=' text-sm font-semibold flex gap-1 text-slate-200'>sales@aysgul.com</p>
         </div>
         <div className=' w-1/3'>
         <h1 className='text-3xl font-bold border-l-yellow-600 border-l-[5px] pl-[8px] text-slate-200'>USEFUL LINKS</h1>
@@ -53,7 +55,7 @@ export default function Footer() {
                     <Link href='/'><Image src={'/youtube.png'} alt='You' width={35} height={35}/></Link>
                 </li>
             </ul>
-            <p className=' pr-10 font-semibold text-slate-200'>TGB Co. is designed to be professional and dynamic. We aim to keep RND ahead and become professional to provide best output for our customers.</p>
+            <p className=' pr-10 font-semibold text-slate-200'>AGI Co. is designed to be professional and dynamic. We aim to keep RND ahead and become professional to provide best output for our customers.</p>
         </div>
     </div>
   )
